@@ -1,0 +1,106 @@
+.items
+{
+    width:100px;
+    height:100px;   
+}
+.Quantity
+{
+    width: 20px;
+    height: 15px;
+    padding-left:2px;
+}
+h2{
+	font-family:Arial, sans-serif;
+}
+
+th,tr
+{
+    border-bottom:1px solid rgb(152, 149, 149);
+    padding-top: 10px; 
+    padding-bottom:10px;
+	font-family:Arial, sans-serif;
+}
+p{font-size:24px;font-family:Arial, sans-serif;}
+
+table
+{
+width: 100%;
+margin :100px;
+margin-right:100px !important;
+margin-bottom:0px;
+
+}
+label
+{
+    color:red;
+}
+.remove-icon 
+{
+   
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.background
+{
+background-image: url("background.jpg");
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          background-position: center ;
+}
+.form
+{
+   width: 400px;
+   margin: 0 auto;
+   padding: 20px;
+   background-color: #f2f2f2;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-top:230px;
+   margin-right:300px;
+ }
+
+ .form h2
+{
+   
+    text-align: center;
+    margin-bottom: 20px;
+      
+}
+
+.form button 
+{
+       padding: 10px 20px; /* Padding */
+     
+    border: 3px solid #b27e61; /* Specify border style, width, and color */
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    margin-left: 70px;
+    overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+	font-family:Arial, sans-serif;
+}
+.form button:hover {
+    transform: translateY(4%);
+    box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.7);
+}
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"]
+.form input[type="text"],
+.form input[type="password"] 
+{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+}
+

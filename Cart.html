@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cart</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous">
+    <style>
+	.elements{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 8px;
+	color:white;
+	font-size:17px;
+	width: 170px;
+    height: 40px;
+	background-color:black;
+	border-color:#b27e61;
+	border-width:3px;
+	margin-left:70px;
+	overflow: hidden;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+	font-family:Arial, sans-serif;
+	}
+	.elements:hover {
+  transform: translateY(4%);
+  box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.7);
+}
+	</style>
+  </head>
+  <body>
+    <table>
+      <tr >
+        <th>Items</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+        <th>Remove</th>
+        <th></th>
+      </tr>
+      
+      <tr>
+        <th><img src="item1.jpg" class="items"></th>
+        <th><input type="text" value="1" class="Quantity"></th>
+        <th>$300.00</th>
+        <span><th><img src="remove.png" alt="Remove" class="remove-icon"></th></span>
+      </tr>
+     
+      <tr >
+        <th><img src="item2.jpg" class="items"></th>
+        <th><input type="text" value="2" class="Quantity"></th>
+        <th>$454.00</th>
+        <span><th><img src="remove.png" alt="Remove" class="remove-icon"></th></span>
+      </tr>
+    </table>
+    <button class="elements">Continue Shopping</button>
+  </body>
+</html>
